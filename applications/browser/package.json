@@ -47,23 +47,6 @@
     }
   },
   "dependencies": {
-    "@theia/ai-anthropic": "1.63.1",
-    "@theia/ai-chat": "1.63.1",
-    "@theia/ai-chat-ui": "1.63.1",
-    "@theia/ai-code-completion": "1.63.1",
-    "@theia/ai-core": "1.63.1",
-    "@theia/ai-editor": "1.63.1",
-    "@theia/ai-google": "1.63.1",
-    "@theia/ai-history": "1.63.1",
-    "@theia/ai-huggingface": "1.63.1",
-    "@theia/ai-ide": "1.63.1",
-    "@theia/ai-llamafile": "1.63.1",
-    "@theia/ai-mcp": "1.63.1",
-    "@theia/ai-ollama": "1.63.1",
-    "@theia/ai-openai": "1.63.1",
-    "@theia/ai-scanoss": "1.63.1",
-    "@theia/ai-terminal": "1.63.1",
-    "@theia/ai-vercel-ai": "1.63.1",
     "@theia/bulk-edit": "1.63.1",
     "@theia/callhierarchy": "1.63.1",
     "@theia/collaboration": "1.63.1",
@@ -87,7 +70,6 @@
     "@theia/navigator": "1.63.1",
     "@theia/outline-view": "1.63.1",
     "@theia/output": "1.63.1",
-    "@theia/plugin-dev": "1.63.1",
     "@theia/plugin-ext": "1.63.1",
     "@theia/plugin-ext-vscode": "1.63.1",
     "@theia/preferences": "1.63.1",
@@ -106,10 +88,8 @@
     "@theia/typehierarchy": "1.63.1",
     "@theia/userstorage": "1.63.1",
     "@theia/variable-resolver": "1.63.1",
-    "@theia/vsx-registry": "1.63.1",
     "@theia/workspace": "1.63.1",
-    "fs-extra": "^9.0.1",
-    "theia-ide-product-ext": "1.63.100"
+    "fs-extra": "^9.0.1"
   },
   "devDependencies": {
     "@theia/cli": "1.63.1",

@@ -12,6 +12,8 @@ COPY . .
 # Remove unnecesarry files for the browser application
 # Download plugins and build application production mode
 # Use yarn autoclean to remove unnecessary files from package dependencies
+ENV NODE_OPTIONS="--max-old-space-size=4096"
+
 RUN yarn config set network-timeout 600000 -g && \
     yarn --pure-lockfile && \
     yarn build:extensions && \
